@@ -18,14 +18,12 @@ class Kalkulator:
         else:
             return "Error: Pembagian dengan nol tidak dapat dilakukan"
 
-# Fungsi utama
 def main():
     kalkulator1 = Kalkulator(3, 4)
     kalkulator2 = Kalkulator(15, 4)
     kalkulator3 = Kalkulator(10, 10)
     kalkulator4 = Kalkulator(12, 3)
     
-    # Output hasil operasi
     print("Penjumlahan :", kalkulator1.penjumlahan())
     print("Pengurangan :", kalkulator2.pengurangan())
     print("Perkalian :", kalkulator3.perkalian())
